@@ -1,12 +1,10 @@
-from venv import create
-
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from selenium.webdriver.common.action_chains import ActionChains
 import time
 
 PROMISED_UP=585
 PROMISED_DOWN=117
+
 TWITTER_EMAIL="YOUR_TWITTER_USERNAME"
 TWITTER_PASSWORD="YOUR_TWITTER_PASSWORD"
 
